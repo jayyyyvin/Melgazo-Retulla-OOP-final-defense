@@ -22,5 +22,6 @@ class Database{
         return $this->conn->error;
     }
 }
+//initialize to create database
 $call = new Database();
 $call->db();

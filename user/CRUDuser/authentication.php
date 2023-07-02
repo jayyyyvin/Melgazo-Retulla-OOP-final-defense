@@ -7,6 +7,6 @@ header('Content-type: application/json; charset=UTF-8');
 $create = new User();
 
 $create->createTable();
-
+    
 echo $create->authentication();
 ?>
